@@ -51,7 +51,7 @@ T& SharedPtr<T>::operator*() const {
 
 template <typename T>
 T* SharedPtr<T>::operator->() const {
-    return controlBlock -> m_ptr;;
+    return controlBlock -> m_ptr;
 }
 
 template <typename T>
